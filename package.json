@@ -1,0 +1,13 @@
+{
+  "name": "release-verify-tools",
+  "version": "1.0.0",
+  "description": "Release verification utilities",
+  "main": "verify.js",
+  "bin": {
+    "release-verify": "verify.js"
+  },
+  "dependencies": {
+    "release-verify-reporter": "git+https://github.com/CyberSunil/release-verify-reporter.git"
+  },
+  "license": "MIT"
+}
